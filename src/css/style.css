@@ -60,17 +60,82 @@ body{
 .inicio{
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh; 
+    background-size: cover;
     background-position: center;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    align-items: space-between;
+    align-items: center;
+    justify-content: space-between;
     padding: 70px 10% 0;
-    background-size: cover;
 }
 
 .inicio-texto{
     flex: 1;
     max-width: 600px;
 }
+
+.img-fundo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-fundo img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.inicio-texto h3{
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom .5s ease forwards;
+}
+
+.inicio-texto h3 span{
+    color: #f7f6f6;
+}
+
+.inicio-texto h3:nth-of-type(2){
+    margin-bottom: 30px;
+    animation: slideTop .5s ease forwards;
+}
+
+.inicio-texto h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+    animation: slideRight .7s ease forwards;
+}
+
+.inicio-texto p{
+    font-size: 20px;
+    opacity: 0;
+    animation: slideLeft .7s ease forwards;
+}
+
+.inicio-botoes a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #f7f6f6;
+    color: #f7f6f6;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #f7f6f6;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
