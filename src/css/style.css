@@ -69,3 +69,8 @@ body{
     padding: 70px 10% 0;
     background-size: cover;
 }
+
+.inicio-texto{
+    flex: 1;
+    max-width: 600px;
+}
