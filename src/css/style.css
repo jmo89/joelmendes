@@ -11,7 +11,7 @@ html{
 
 body{
     color: #f7f6f6;
-    background: #2e2d63;
+    background: #5554a1;
 }  
 
 .cabecalho{
@@ -20,7 +20,7 @@ body{
     left:0;
     width: 100%;
     padding: 20px 10%;
-    background-color:#2e2d63;
+    background-color:#5554a1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +115,7 @@ body{
 
 .inicio-texto p{
     font-size: 20px;
-    opacity: 0;
+    /*opacity: 0;*/
     animation: slideLeft .7s ease forwards;
 }
 
