@@ -191,4 +191,9 @@ body{
     border-radius: 2px;
 }
 
-
+.skills{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
