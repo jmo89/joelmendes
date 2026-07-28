@@ -1,0 +1,9 @@
+{
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.headers": {
+        
+    }
+}
