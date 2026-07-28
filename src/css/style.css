@@ -215,3 +215,9 @@ body{
     color:#484f64;
     font-size: 0.9rem;
 }
+
+.skill:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 15px #484f64;
+}
+
