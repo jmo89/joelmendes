@@ -160,12 +160,12 @@ body{
 }
 
 .texto-sobre h2{
-    font-size: 80px;
+    font-size: 60px;
     color: #f7f6f6;
 }
 
 .texto-sobre p{
-    color: #f7f6f6;
+    color: #bebdbd;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
