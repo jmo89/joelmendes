@@ -197,3 +197,10 @@ body{
     gap: 50px;
     flex-wrap: wrap;
 }
+
+.skill {
+    background: #f7f6f6;
+    padding: 25px 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
