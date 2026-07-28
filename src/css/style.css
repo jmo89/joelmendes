@@ -139,3 +139,8 @@ body{
     animation-delay: calc(.2s * var(--i));
 }
 
+.inicio-botoes a:hover{
+    color: #5554a1;
+    border-radius: #5554a1
+}
+
