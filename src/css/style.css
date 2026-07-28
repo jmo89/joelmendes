@@ -209,3 +209,9 @@ body{
     font-size: 60px;
     color: #f7f6f6;
 }
+
+.skill p{
+    margin-top: 10px;
+    color:#484f64;
+    font-size: 0.9rem;
+}
