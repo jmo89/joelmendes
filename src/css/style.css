@@ -144,3 +144,51 @@ body{
     border-radius: #5554a1
 }
 
+.sobre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sobre-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.texto-sobre h2{
+    font-size: 80px;
+    color: #f7f6f6;
+}
+
+.texto-sobre p{
+    color: #f7f6f6;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    line-height: 1.2;
+    text-align: justify;
+    line-height: 1.2;
+    max-width: 550px;
+}
+
+.habilidades{
+    background: #5554a1;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.linhas{
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #f7f6f6;
+    margin: 0 auto 40px;
+    border-radius: 2px;
+}
+
+
