@@ -263,3 +263,8 @@ body{
     line-height: 1.5;
     margin-bottom: 20px;
 }  
+
+.cartao-projetos:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 30px #FFE4C4;
+}
