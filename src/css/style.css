@@ -268,3 +268,14 @@ body{
     transform: translateY(-8px);
     box-shadow: 0 0 30px #FFE4C4;
 }
+
+.btn-projeto {
+    display: inline-block;
+    background-color: #DEB887;
+    color: #d3e9e9;
+    padding: 12px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background 0.3s ease, color 0.3s ease;
+}
