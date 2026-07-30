@@ -266,7 +266,7 @@ body{
 
 .cartao-projeto:hover {
     transform: translateY(-8px);
-    box-shadow: 0 0 30px #FFE4C4;
+    box-shadow: 0 0 30px #DEB887;
 }
 
 .btn-projeto{
@@ -291,7 +291,7 @@ body{
 }
 
 .btn-projeto:hover{
-    background-color: #FFE4C4;
+    background-color: #DEB887;
     transform:scale(1.05);
 }
 
@@ -334,5 +334,31 @@ body{
 .form-contato textarea{
     min-height: 120px;
     resize: none;    
+}
+
+.btn-whatsapp{
+    margin: 25px auto 0;
+    background-color: #FFE4C4;
+    color: #d3e9e9;
+    padding: 14px 28px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background 0.3s ease, trasnform 0.3s ease;
+}
+
+.btn-whatsapp:hover{
+    background-color: #DEB887;
+    transform:scale(1.05);
+}
+
+.footer{
+    background-color: #2F4F4F;
+    color: #DEB887;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
 }
 
