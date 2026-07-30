@@ -221,3 +221,14 @@ body{
     box-shadow: 0 0 15px #484f64;
 }
 
+.projetos{
+    background: #f7f6f6;
+    padding: 90px 20px;
+    text-align: center; 
+}
+
+.projetos h2{
+    color: #5554a1;
+    font-size: 2.3rem;
+    margin-bottom: 10px;   
+}
