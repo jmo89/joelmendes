@@ -10,8 +10,8 @@ html{
 }
 
 body{
-    color: #f7f6f6;
-    background: #5554a1;
+    color: #DEB887;
+    background: #2F4F4F;
 }  
 
 .cabecalho{
@@ -20,7 +20,7 @@ body{
     left:0;
     width: 100%;
     padding: 20px 10%;
-    background-color:#5554a1;
+    background-color:#2F4F4F;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,7 @@ body{
 
 .logo{
     position: relative;
-    color: #f7f6f6;
+    color: #DEB887;
     font-size: 25px;
     font-weight: 600;
     text-decoration: none;
@@ -42,19 +42,19 @@ body{
     display: inline;
     font-size: 25px;
     position: relative;
-    color: #d3cfcf;
+    color: #FFE4C4;
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
     margin-left: 35px;
     transition: 0.3s;
-    opacity: 0;
+    /*opacity: 0;*/
     animation: slideRight 0.5s ease forwards;
     animation-delay: calc(0.2s * var(--i));
 }   
 
 .navvibar a:hover{
-    color: #f7f6f6;
+    color: #FFE4C4;
 }
 
 .inicio{
@@ -92,12 +92,12 @@ body{
 .inicio-texto h3{
     font-size: 32px;
     font-weight: 700;
-    opacity: 0;
+    /*opacity: 0;*/
     animation: slideBottom .5s ease forwards;
 }
 
 .inicio-texto h3 span{
-    color: #f7f6f6;
+    color: #FFE4C4;
 }
 
 .inicio-texto h3:nth-of-type(2){
@@ -109,7 +109,7 @@ body{
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
-    opacity: 0;
+    /*opacity: 0;*/
     animation: slideRight .7s ease forwards;
 }
 
@@ -127,21 +127,21 @@ body{
     height: 40px;
     background: transparent;
     border: 2px solid;
-    color: #f7f6f6;
+    color: #FFE4C4;
     border-radius: 50%;
     font-size: 20px;
     color: #f7f6f6;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
-    opacity: 0;
+    /*opacity: 0;*/
     animation: slideLeft .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
 
 .inicio-botoes a:hover{
-    color: #5554a1;
-    border-radius: #5554a1
+    color: #2F4F4F;
+    border-radius: #2F4F4F
 }
 
 .sobre{
