@@ -130,7 +130,7 @@ body{
     color: #FFE4C4;
     border-radius: 50%;
     font-size: 20px;
-    color: #f7f6f6;
+    color: #FFE4C4;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
@@ -161,11 +161,11 @@ body{
 
 .texto-sobre h2{
     font-size: 60px;
-    color: #f7f6f6;
+    color: #FFE4C4;
 }
 
 .texto-sobre p{
-    color: #bebdbd;
+    color: #DEB887;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
@@ -177,16 +177,16 @@ body{
 }
 
 .habilidades{
-    background: #5554a1;
+    background: #5F9EA0;
     font-size: 2.2rem;
     margin-bottom: 10px;
 }
 
-.linhas{
+.linha{
     display: block;
     width: 50px;
     height: 3px;
-    background: #f7f6f6;
+    background: #DEB887;
     margin: 0 auto 40px;
     border-radius: 2px;
 }
@@ -231,4 +231,17 @@ body{
     color: #5554a1;
     font-size: 2.3rem;
     margin-bottom: 10px;   
+}
+
+.cartoes-projetos{
+    background: #5F9EA0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cartao-projetos{
+    background: #5F9EA0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
