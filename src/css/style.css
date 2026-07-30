@@ -207,7 +207,7 @@ body{
 
 .skill i{
     font-size: 60px;
-    color: #f7f6f6;
+    color: #FFE4C4;
 }
 
 .skill p{
@@ -222,7 +222,7 @@ body{
 }
 
 .projetos{
-    background: #f7f6f6;
+    background: #2F4F4F;
     padding: 90px 20px;
     text-align: center; 
 }
@@ -234,14 +234,27 @@ body{
 }
 
 .cartoes-projetos{
-    background: #5F9EA0;
-    padding: 20px;
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 35px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
+
 .cartao-projetos{
-    background: #5F9EA0;
+    background: #2F4F4F;
+    border-radius: 16px;
     padding: 20px;
-    border-radius: 8px;
+    border: 2px solid #DEB887;
+    box-shadow: 0 0 20px #FFE4C4;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
 }
+
+.cartao-projetos img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+    
