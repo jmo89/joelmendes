@@ -409,3 +409,107 @@ body{
     opacity: 1;
   }
 }
+
+@media (max-windth: 768px){
+
+    .cabecalho{
+        padding: 15px 5%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .navbar a{
+        font-size: 16px;
+        margin-left: 0;
+        margin: 5px 10px
+    }
+
+    .inicio {
+    flex-direction: column;
+    height: auto;
+    padding: 120px 5% 40px;
+    text-align: center;
+    }
+
+    .inicio-texto {
+        max-width: 100%;
+    }
+
+    .inicio-texto h1 {
+        font-size: 36px;
+    }
+
+    .inicio-texto h3 {
+        font-size: 22px;
+    }
+
+    .inicio-textot p {
+        font-size: 16px;
+    }
+
+    .inicio-botoes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+        padding: 60px 5%;
+        text-align: center;
+    }
+
+    .texto-sobre h2 {
+        font-size: 36px;
+    }
+
+    .texto-sobre p {
+        font-size: 16px;
+        margin: 0 auto 2rem;
+    }
+
+    .sobre-img img {
+        max-width: 250px;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+
+    .habilidades {
+        padding: 60px 5%;
+    }
+
+    .skills {
+        gap: 25px;
+    }
+
+    .skill {
+        width: 100%;
+        max-width: 260px;
+    }
+
+    .projetos {
+        padding: 70px 5%;
+    }
+
+    .cartoes-projetos {
+        grid-template-columns: 1fr;
+    }
+
+    .contato {
+        padding: 70px 5%;
+    }
+
+    .contato h2 {
+        font-size: 32px;
+    }
+
+    .rodape {
+        font-size: 12px;
+    }
+}
+
