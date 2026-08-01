@@ -1,5 +1,5 @@
 var type = new Typed(".text", {
-    strings: ["Desenvolvedor Front-End", "Desenvolvedor Web", "Programador"],
+    strings: ["Desenvolvedor Web", "Programador", "Desenvolvedor Front-End.", ],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
