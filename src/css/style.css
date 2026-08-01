@@ -178,6 +178,12 @@ body{
 
 .habilidades{
     background: #5F9EA0;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.habilidades h2{
+    color: #DEB887;
     font-size: 2.2rem;
     margin-bottom: 10px;
 }
