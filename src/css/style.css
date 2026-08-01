@@ -205,20 +205,20 @@ body{
 }
 
 .skill {
-    background: #484f64;
+    background: #2F4F4F;
     padding: 25px 30px;
-    border-radius: 50%;
+    border-radius: 14px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill i{
     font-size: 60px;
-    color: #FFE4C4;
+    color: #DEB887;
 }
 
 .skill p{
     margin-top: 10px;
-    color:#484f64;
+    color:#DEB887;
     font-size: 0.9rem;
 }
 
