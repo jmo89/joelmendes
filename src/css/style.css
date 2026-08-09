@@ -283,7 +283,7 @@ body{
 .btn-projeto{
     display: inline-block;
     background-color: #DEB887;
-    color: #d3e9e9;
+    color: #313535;
     padding: 12px 22px;
     border-radius: 10px;
     text-decoration: none;
@@ -350,7 +350,7 @@ body{
 .btn-whatsapp{
     margin: 25px auto 0;
     background-color: #FFE4C4;
-    color: #d3e9e9;
+    color: #313535;
     padding: 14px 28px;
     border-radius: 10px;
     border: none;
